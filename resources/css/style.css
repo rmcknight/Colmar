@@ -1,0 +1,107 @@
+html {
+font-family: 'Hind', sans-serif;
+font-size: 16px;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+/*
+div {
+  border: 2px solid green;
+}
+*/
+
+.topline {
+  display: flex;
+  color: gray;
+  font-weight: bold;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.topline img {
+  height: 2.5rem;
+  padding-left: 1.5rem;
+}
+
+.topline span {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.bold {
+  font-weight: bold;
+  color: black;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    list-style: none;
+    padding-right: 0.5rem;
+}
+
+li {
+  padding-right: 1rem;
+}
+
+
+.banner {
+  background-color: lightgray;
+  display: flex;
+
+}
+
+.banner img {
+  width: 60%;
+  padding: 2rem 1.5rem;
+  max-height: 35rem;
+  margin: auto;
+}
+
+.banner-right {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  justify-content: center;
+
+}
+
+.banner-right h2, h3, h4  {
+  padding: 1rem 0;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  width: 70%;
+}
+
+.button h4 {
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top:  1rem;
+
+}
