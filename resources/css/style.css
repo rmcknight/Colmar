@@ -21,7 +21,7 @@ h4 {
 
 /*
 div {
-  border: 2px solid green;
+  border: 1px solid green;
 }
 */
 
@@ -168,6 +168,7 @@ li {
   width: 35%;
   height: auto;
 }
+
 .info-item-text {
   display: flex;
   flex-direction: column;
@@ -192,4 +193,125 @@ li {
   padding: 1rem;
   color: blue;
   font-weight: bold;
+}
+
+.learning-container {
+  display: block;
+  background-color: lightgray;
+  text-align: center;
+  width: 100%;
+  padding: 2rem 2rem;
+}
+
+.learning-container h4 {
+  padding: 2rem 2rem;
+  width: 100%;
+}
+
+.learning-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.learning-item {
+  width: 15rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.learning-item img {
+  width: 100%;s
+  height: auto;
+}
+
+
+.learning-item .textbox {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  height: 9rem;
+  padding-left: 1rem;
+}
+
+.learning-item .textbox h5 {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+
+}
+
+.learning-item .textbox span {
+  font-size 0.9 rem;
+  margin-top: 0.5rem;
+  color: lightgray;
+  margin-bottom: 0.75rem;
+}
+
+
+.thesis {
+  display: block;
+
+}
+
+.thesis h5 {
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+
+.thesis-items {
+  display: inline-flex;
+}
+
+.thesis-main {
+  width: 60%;
+  background-color: white;
+  color: gray;
+}
+.thesis-main h6 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.video {
+  margin-right: 1rem;
+
+}
+
+video {
+  margin-bottom: 1.5rem;
+  border 2px solid black;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  width: 40%;
+
+}
+
+
+footer {
+  height: 4rem;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid gray;
+  color: gray;
+}
+
+footer a {
+  text-decoration: none;
+  color: gray;
 }
