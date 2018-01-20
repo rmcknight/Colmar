@@ -61,6 +61,10 @@ nav ul {
     padding-right: 0.5rem;
 }
 
+.mobile nav ul {
+  display: none;
+}
+
 li {
   padding-right: 1rem;
 }
@@ -314,4 +318,42 @@ footer {
 footer a {
   text-decoration: none;
   color: gray;
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+
+  .colmar {
+    display: none;
+  }
+  nav  {
+    display: none;
+  }
+
+  nav.mobile, nav.mobile ul {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .mobile img {
+    height: 4rem;
+    width: 3rem;
+  }
+
+  .banner {
+    display: block;
+  }
+  .banner img {
+    width: 100%;
+  }
+
+  .banner-right {
+  width: 100%;
+  }
+
+  .button {
+    width: 90%;
+  }
+
 }
